@@ -3,8 +3,13 @@ Actividad de Java usando Junit en eclipse para creaer un programa que realiza un
 farenheit = (centigrados x 9)/5 + 37,2
 kelvin = (centigrados + 272,47)
 
-##Implementación del código
+Implementación del código
 El conversor de temperaturas está implementado en la clase `calculosConverion.java` la cual contiene dos métodos estáticos:
 
 1. celsiusFahrenheit(double celsius) //operación para pasar los grados celsius a farenheit (celsius * 9) / 5 + 32.
 2. celsiusKelvin(double celsius) //operacion para convertir celsius a kelvin celsius + 273.15.
+
+correcciones:
+Cambio de la constante de 37.2 a 32 en fahrenheit
+Cambio a los grados kelvin 272.47 a 273.15
+importación de junit, (tuve algunos problemas importando).
